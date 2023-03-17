@@ -1,0 +1,75 @@
+https://www.learn-js.org/en/Variables_and_Types
+
+1) 	define a number called myNumber which contains the number 35
+2) 	define a string called myString which contains the sentence "JavaScript is fun" 
+3) 	define a boolean called myBoolean which contains the value false
+
+https://www.learn-js.org/en/Arrays
+
+4) 	define an array called myArray that contains the sentence "hello world", the boolean true, the number 46 and the number 7.8
+
+https://www.learn-js.org/en/Manipulating_Arrays
+
+5) 	add myString at the end of myArray
+6) 	add myNumber at the beginning of myArray
+7) 	define an array called mySecondArray that contains the last 3 elements of myArray
+8) 	define an array called myThirdArray that containes the first 3 elements of myArray
+9) 	add the second element of mySecondArray to the end of myThirdArray
+
+https://www.learn-js.org/en/Operators
+
+10) 	connect the second element of myArray and myString with a space between them and assign the result to a string called mySentence
+11) 	connect the sentence "my random integer is " and a random integer between 0 and 9
+
+https://www.learn-js.org/en/Functions
+
+12) 	create a function named rectangleArea which takes the length and width of a rectangle as arguments and returns its area (length * width)
+13) 	create a function named circleArea which takes the radius of a circle as argument and returns its area (π * radius²)
+
+https://www.learn-js.org/en/Conditions
+
+14) 	create a function called comment which takes a mark as an argument and returns a string:
+		returns "average" if the mark is between 50 and 60 (excluded)
+		returns "good" if the mark is between 60 and 80 (excluded)
+		returns "great" if the mark is above 80
+		returns "bad" otherwise
+
+15) 	create a function called classify which takes a string as an argument and
+		returns "this is a fruit" if the argument is "apple", "orange", "banana", "pear" or "mango"
+		returns "this is a vegetable" if the argument is "carrot", "eggplant", "parsnip", "turnip" or "zucchini"
+		otherwise returns "not sure what this is" 
+
+https://www.learn-js.org/en/Loops
+
+16) 	iterate through myArray and for each element, connect strings, its index and its value in order to display the following in the console:
+		"the value for element 0 is 35"
+		"the value for element 1 is hello world"
+		"the value for element 2 is true"
+		"the value for element 3 is 46
+		...
+
+17) 	In mathematics, the factorial of a non-negative integer n is the product of all positive integers less than or equal to n - by convention, the factorial of 0 is 1.
+	For example, factorial of 3 is 1*2*3 = 6 and factorial of 5 is 1*2*3*4*5 = 120.
+
+	create a function called factorial which takes a number as argument and returns its factorial.
+
+18)	create a function named withdraw which takes one amount and returns an array containing a bundle of bank notes (100, 50, 20, 10, 5) - for example:
+		withdraw(320) -> ["3 x 100-dollar bill(s)", "1 x 20-dollar bill(s)"]
+		withdraw(450) -> ["4 x 100-dollar bill(s)", "2 x 20-dollar bill(s)", "1 x 10-dollar bill(s)"]
+		withdraw(75) -> ["3 x 20-dollar bill(s)", "1 x 10-dollar bill(s)", "1 x 5-dollar bill(s)"]
+		withdraw(575) -> ["5 x 100-dollar bill", "1 x 50-dollar bill", "1 x 20-dollar bill", "1 x 5-dollar bill"]
+
+https://www.learn-js.org/en/Objects
+
+19)	create an array called students that contains 5 students, each with an id, first name, last name and grades as follows:
+
+	   id   |       first name      |       last name       |       grades
+	-----------------------------------------------------------------------------
+	   10   |       Fernando        |       Lopez           |       78, 85, 90
+	   13   |       Miranda         |       Kahan           |       72, 95, 89
+	   17   |       Lisa            |       Xiao            |       62, 76, 95
+
+20)	create a function called average that takes an array of students as argument and returns a new array containing the rounded average of each student's grades - for example:
+		average(students) -> [84, 85, 78]
+
+
